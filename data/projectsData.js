@@ -1,14 +1,12 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'TKDownloader',
+    description: `Một trang web đơn giản giúp tải nhạc hoặc video từ youtube. Sử dụng Flask (python) làm backend.`,
+    imgSrc: '/static/images/tkdownloader.png',
+    href: 'https://tkdownloader.herokuapp.com',
   },
   {
-    title: 'The Time Machine',
+    title: 'TKChatbot',
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or
     forgotten handphones with this simple yet affordable solution.`,

@@ -1,18 +1,17 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Tknightz Blog',
+  author: 'Tknightz',
+  headerTitle: 'Tknightz',
+  description: 'Just a small blog.',
   language: 'en-us',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
+  email: 'hatuyen2699@gmail.com',
+  github: 'https://github.com/tknightz',
+  facebook: 'https://facebook.com/tkstudio.pro',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
   locale: 'en-US',
@@ -25,7 +24,7 @@ const siteMetadata = {
   comment: {
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: 'utterances', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
@@ -51,13 +50,13 @@ const siteMetadata = {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://utteranc.es/
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
-      issueTerm: '', // supported options: pathname, url, title
-      label: '', // label (optional): Comment 💬
+      issueTerm: 'pathname', // supported options: pathname, url, title
+      label: 'Comment', // label (optional): Comment 💬
       // theme example: github-light, github-dark, preferred-color-scheme
       // github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light
-      theme: '',
+      theme: 'boxy-light',
       // theme when dark mode
-      darkTheme: '',
+      darkTheme: 'github-dark-orange',
     },
     disqus: {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
