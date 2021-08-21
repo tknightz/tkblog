@@ -7,7 +7,7 @@ const projectsData = [
   },
   {
     title: 'TKChatbot',
-    description: `A Messenger Chatbot which can check your English grammar's mistakes using LanguageTool public API.`,
+    description: `A Messenger Chatbot which can check your English grammar mistakes using LanguageTool public API.`,
     imgSrc: '/static/images/time-machine.jpg',
     href: '#',
   },
