@@ -1,17 +1,15 @@
 const projectsData = [
   {
     title: 'TKDownloader',
-    description: `Một trang web đơn giản giúp tải nhạc hoặc video từ youtube. Sử dụng Flask (python) làm backend.`,
+    description: `A simple webservice to download video and audio from Youtube. Using Flask (Python) as backend.`,
     imgSrc: '/static/images/tkdownloader.png',
     href: 'https://tkdownloader.herokuapp.com',
   },
   {
     title: 'TKChatbot',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
+    description: `A Messenger Chatbot which can check your English grammar's mistakes using LanguageTool public API.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: '#',
   },
 ]
 

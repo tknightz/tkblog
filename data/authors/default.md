@@ -1,5 +1,5 @@
 ---
-name: Tknihtz
+name: Tknightz
 avatar: /static/images/avatar.png
 occupation: Just a stubborn coder
 company: Freelancer
