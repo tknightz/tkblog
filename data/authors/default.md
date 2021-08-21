@@ -1,7 +1,7 @@
 ---
 name: Tknihtz
 avatar: /static/images/avatar.png
-occupation: Just a subborn coder
+occupation: Just a stubborn coder
 company: Freelancer
 email: tulenknightz@gmail.com
 linkedin: https://www.linkedin.com/in/tuyen-ha-28730a1b4
