@@ -9,7 +9,11 @@ layout: PostSimple
 
 Props không thể thay đổi trong component nhưng `state` thì có. Đây cũng chính là lý do state được sử dụng trong các component mạng tính "dynamic" động đậy theo thời gian hoặc sự kiện.
 
-<Image src="/static/images/props.png" width={640} height={350} />
+<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
+  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
+    <Image src="/static/images/props.png" width={1024} height={500} />
+  </div>
+</div>
 
 <hr />
 # State
@@ -52,7 +56,7 @@ bán, đi sử dụng.
 
 - **Trước hết ta sẽ chuyển Clock sang Class component**
 
-```js
+```js showLineNumbers
 class Clock extends React.Component {
   render() {
     return (
@@ -67,7 +71,7 @@ class Clock extends React.Component {
 
 - **Giờ chúng ta sẽ chuyển props.date và state.**
 
-```js
+```js {2-5,10} showLineNumbers
 class Clock extends React.Component {
   constructor(props) {
     super(props)
@@ -99,7 +103,7 @@ Chúng ta có thể định nghĩa những phương thức đặc biệt trong c
 chạy code khi component mount và unmount. Các hàm đặc biệt đó là những hàm dược
 cung cấp trong lifecycle:
 
-```js
+```js {7-9,11-13} showLineNumbers
 class Clock extends React.Component {
   constructor(props) {
     super(props)

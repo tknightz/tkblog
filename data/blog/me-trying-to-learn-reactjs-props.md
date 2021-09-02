@@ -1,6 +1,6 @@
 ---
 title: 'Tôi cố học ReactJS - Props'
-date: '2021-09-02'
+date: '2021-09-01'
 summary: 'Me trying to learn ReactJS. Obviously dịch docs từ reactjs.org'
 draft: false
 tags: ['reactjs', 'selftaught']
