@@ -4,11 +4,13 @@ import { getMDXComponent } from 'mdx-bundler/client'
 import Image from './Image'
 import CustomLink from './Link'
 import Pre from './Pre'
+import Callout from './Callout'
 
 export const MDXComponents = {
   Image,
   a: CustomLink,
   pre: Pre,
+  Callout: Callout,
   wrapper: ({ components, layout, ...rest }) => {
     const Layout = require(`../layouts/${layout}`).default
     return <Layout {...rest} />

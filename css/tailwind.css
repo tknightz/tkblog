@@ -30,3 +30,57 @@
 html {
   scroll-behavior: smooth;
 }
+
+.callout {
+  border: 1px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.callout::before {
+  content: '';
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.callout--info {
+  background: #7acf7b75;
+}
+
+.callout--info::before {
+  background: #50af51;
+}
+
+.callout--warning {
+  background: #f0ad4e75;
+}
+
+.callout--warning::before {
+  background: #f0ad4e;
+}
+
+.callout--danger {
+  background: #d9534f7a;
+}
+
+.callout--danger::before {
+  background: #d9534f;
+}
+
+.callout__content {
+  padding: 5px 15px;
+}
+
+.callout__title {
+  padding: 5px 15px;
+  margin: 0 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: large;
+  border-bottom: 1px solid #ffffffa3;
+}
